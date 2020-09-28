@@ -36,9 +36,3 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
-    salesforce:
-        vars:
-            account: "{{ source('salesforce', 'account') }}"   # or "{{ ref('salesforce_account_unioned'}) }}"
-            opportunity: "{{ source('salesforce', 'opportunity') }}" 
-            user: "{{ source('salesforce', 'user') }}"
-            user_role: "{{ source('salesforce', 'user_role') }}"
