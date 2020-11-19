@@ -18,6 +18,21 @@ with source_data as (
 select *
 from source_data
 
+CREATE TEMP TABLE Example
+(
+  x INT64,
+  y STRING
+);
+
+INSERT INTO Example
+VALUES (5, 'foo');
+
+INSERT INTO Example
+VALUES (6, 'bar');
+
+SELECT *
+FROM Example;
+
 /*
     Uncomment the line below to remove records with null `id` values
 */
