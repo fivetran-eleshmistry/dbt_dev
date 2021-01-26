@@ -1,3 +1,5 @@
 packages:
   - package: fivetran/salesforce
     version: 0.3.0
+  - package: fivetran/google_ads
+    version: 0.1.0
