@@ -14,7 +14,7 @@ with source_data as (
     select
         account_id, full_name, name 
 
-    from netsuite.accounts
+    from salesforce.account
 
 )
 
