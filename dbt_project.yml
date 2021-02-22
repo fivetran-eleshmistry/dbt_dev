@@ -29,9 +29,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 config-version: 2
 
-vars:
-    salesforce_schema: SALESFORCE_CMTEST
-    salesforce_database: EMEA_3
+# vars:
+#     salesforce_schema: SALESFORCE_CMTEST
+#     salesforce_database: EMEA_3
 
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
