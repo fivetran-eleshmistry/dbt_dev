@@ -3,4 +3,4 @@
 
 select account_id as account_id2, full_name, name
 from {{ ref('my_first_dbt_model') }}
-where account_id = 189 or account_id = 132
+where account_id = '0014K000007L1qNQAS' or account_id = '0014K000007L1qOQAS'
