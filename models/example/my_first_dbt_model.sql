@@ -12,9 +12,9 @@
 with source_data as (
 
     select
-        id, name
+        account_id, full_name
 
-    from salesforce.account
+    from netsuite.accounts
 
 )
 
