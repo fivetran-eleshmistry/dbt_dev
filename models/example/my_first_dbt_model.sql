@@ -12,9 +12,9 @@
 with source_data as (
 
     select
-        account_id, full_name
+        id, event
 
-    from netsuite.accounts
+    from fivetran_log.log
 
 )
 
